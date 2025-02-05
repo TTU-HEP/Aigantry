@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def get_module_paths(module_name):
-    base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
+    #base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
+    base_dir = os.path.join('./', 'Modules')
     images_dir = os.path.join(base_dir, module_name, 'Resultswirebond')
     labels_dir = os.path.join(base_dir, module_name, 'Resultswirebond', 'labels')
     return images_dir , labels_dir
