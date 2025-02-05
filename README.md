@@ -27,7 +27,7 @@ After running the detection script, analyze the results using the analysis scrip
 But change the path to the 
 <div align="center">
   <pre><code>modules nano analyze_results.py
-    base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
+    base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules') #change with your location of Modules
 </code></pre>
 </div>
 
