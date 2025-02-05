@@ -24,6 +24,11 @@ Execute the wirebond detection script to process the data.
 
 ### Step 3: Analyze the Results
 After running the detection script, analyze the results using the analysis script.
+But change the path to the 
+<div align="center">
+  <pre><code>modules base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
+</code></pre>
+</div>
 
 <div align="center">
   <pre><code>python3 analyze_results.py
