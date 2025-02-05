@@ -26,7 +26,8 @@ Execute the wirebond detection script to process the data.
 After running the detection script, analyze the results using the analysis script.
 But change the path to the 
 <div align="center">
-  <pre><code>modules base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
+  <pre><code>modules nano analyze_results.py
+    base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
 </code></pre>
 </div>
 
