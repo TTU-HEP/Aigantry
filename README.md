@@ -8,32 +8,29 @@
 ### Step 1: Set Up the Environment
 Create and activate the Conda environment using the provided `environment.yml` file.
 
-<div align="center">
-  <pre><code>conda env create -f environment.yml
+```
+conda env create -f environment.yml
 conda activate Wirebond
-</code></pre>
-</div>
+```
 
 ### Step 2: Run Wirebond Detection
 Execute the wirebond detection script to process the data.
 
-<div align="center">
-  <pre><code>python3 wirebonddetect.py
-</code></pre>
-</div>
+```
+python3 wirebonddetect.py
+```
 
 ### Step 3: Analyze the Results
 After running the detection script, analyze the results using the analysis script.
-But change the path to the 
-<div align="center">
-  <pre><code>modules nano analyze_results.py
-    base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules') #change with your location of Modules
-</code></pre>
-</div>
+But change the path to the modules inside `analyze_results.py`
 
-<div align="center">
-  <pre><code>python3 analyze_results.py
-</code></pre>
-</div>
+```
+base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules') #change with your location of Modules
+```
+
+Finally run
+```
+python3 analyze_results.py
+```
 
 ---
