@@ -22,11 +22,7 @@ python3 wirebonddetect.py
 
 ### Step 3: Analyze the Results
 After running the detection script, analyze the results using the analysis script.
-But change the path to the modules inside `analyze_results.py`
-
-```
-base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules') #change with your location of Modules
-```
+There exits a dummy Module in Modules called M16 which has sample images
 
 Finally run
 ```
