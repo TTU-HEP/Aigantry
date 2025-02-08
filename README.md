@@ -19,6 +19,11 @@ Execute the wirebond detection script to process the data.
 ```
 python3 wirebonddetect.py
 ```
+It will ask for a Module Number enter the following for the sample module 
+
+```
+M16
+```
 
 ### Step 3: Analyze the Results
 After running the detection script, analyze the results using the analysis script.
