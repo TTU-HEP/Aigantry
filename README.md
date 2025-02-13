@@ -14,7 +14,7 @@ conda activate Wirebond
 ```
 
 ### Step 2: Run Wirebond Detection
-Execute the wirebond detection script to process the data.
+Execute the wirebond detection script to process the data. 
 
 ```
 python3 wirebonddetect.py
@@ -32,6 +32,11 @@ There exits a dummy Module in Modules called M16 which has sample images
 Finally run
 ```
 python3 analyze_results.py
+```
+It will ask for a Module Number enter the following for the sample module 
+
+```
+M16
 ```
 
 ---
